@@ -10,7 +10,7 @@
 body {
     font-size: 15px;
     font-family: 'Lexend Deca', 'Courier New', Courier, monospace;
-    background-color: hsl(233, 47%, 7%) ;
+    background-color: hsl(233, 47%, 7%) ; 
 }
 
 h1, h2 {
@@ -29,7 +29,6 @@ p {
     background-color: hsl(244, 38%, 16%);
     color: hsl(0, 0%, 100%);
     border-top-left-radius: 25px;
-    border
 }
 
 picture {
