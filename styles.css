@@ -1,24 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    font-family: 'Lexend Deca', 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%) ; 
+}
 
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 130px;  
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 130px 130px 130px 130px;
 }
 
-body {
-    font-size: 15px;
-    font-family: 'Lexend Deca', 'Courier New', Courier, monospace;
-    background-color: hsl(233, 47%, 7%) ; 
+h1 {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
 }
 
-h1, h2 {
-    color:hsl(0, 0%, 100%)
+ul {
+    padding-left: 0;
 }
-                                                                                        
-p {
-    color: hsla(0, 0%, 100%, 0.75);
+
+li {
+    list-style: none;
+    display: inline-block;
+    /*padding-right: 5rem;*/
 }
 
 .accent {
@@ -27,14 +38,47 @@ p {
 
 .main-content {
     background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 5rem;
+}
+
+.content-center {
+    padding-right: 60px;
+}
+
+.title-main, .main, .stats {
+    padding-left: 5rem;
+}
+
+.main {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+}                                                                                    
+
+.stats-headings {
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    font-weight: 700;
     color: hsl(0, 0%, 100%);
-    border-top-left-radius: 25px;
+}
+
+.stats-p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
 }
 
 picture {
-    filter: invert(30%) sepia(84%) saturate(1624%) hue-rotate(239deg) brightness(88%) contrast(95%); 
-    
+    filter: invert(30%) sepia(84%) saturate(1624%) hue-rotate(239deg) brightness(88%) contrast(95%);
 }
 
-.attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 100%);}
+.attribution { font-family: 'Lexenda', Arial, Helvetica, sans-serif ; font-size: 11px; text-align: center; color: hsl(0, 0%, 100%);}
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/*imagem desktop - largura 540 pixels | altura 446 pixels
+imagem mobile - largura 654 pixels | altura 480 pixels*/
