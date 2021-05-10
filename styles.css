@@ -11,10 +11,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 446px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 130px 130px 130px 130px;
 }
+
 
 h1 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -75,6 +77,11 @@ a {
 
 picture {
     filter: invert(30%) sepia(84%) saturate(1624%) hue-rotate(239deg) brightness(88%) contrast(95%);
+}
+
+img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .attribution { font-family: 'Lexenda', Arial, Helvetica, sans-serif ; font-size: 11px; text-align: center; color: hsl(0, 0%, 100%);}
